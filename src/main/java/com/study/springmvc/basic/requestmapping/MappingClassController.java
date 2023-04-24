@@ -1,12 +1,11 @@
 package com.study.springmvc.basic.requestmapping;
 
-import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/mapping/users")
 public class MappingClassController {
-    @GetMapping
+    // @GetMapping()
     public String user() {
         return "get user";
     }
